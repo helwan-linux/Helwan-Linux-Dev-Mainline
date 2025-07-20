@@ -21,27 +21,70 @@ Designed by developers, for developers and creators.
 
 ## 💡 What is Helwan Linux?
 
-Helwan O.S is not just another Linux distro.  
+Helwan Linux is not just another Linux distro.  
 It’s a handcrafted Arch-based system built to empower programmers, YouTubers, and power users with a fast, secure, and full-featured desktop — right out of the box.
 
 With the Cinnamon desktop, the elegance of simplicity meets the power of performance.
 
 ---
 
-## 🆕 What's New in Helwan Linux 5.0?
+## 🆕 What's New in Helwan Linux stable v1.0?
 
-Helwan 5.0 introduces a suite of original applications built in-house to enhance your workflow and system experience:
+Helwan Linux 5.0 (Stable v1.0) introduces a full suite of original in-house applications, crafted to enhance productivity, learning, development, system management, and overall user experience.
 
-- **hel-ai-gate** – A unique gateway to access AI and machine learning platforms without needing a web browser.
-- **hel-tutorial** – A simple, offline English-language tutorial system for learning Bash scripting.
-- **hel-welcome-app** – A friendly welcome and onboarding tool for new users.
-- **hel-insight** – A lightweight graphical tool for statistical analysis and visualization of CSV files, designed for data analysis and educational use.
-- **hel-markdown** – A lightweight markdown editor for developers and documentation writers.
-- **hel-process** – A minimal process monitor and system resource viewer.
-- **hel-usb-writer** – A reliable tool to safely write ISO images to USB drives.
-- **hel-blocks** – A fun Tetris-inspired game with a Helwan Linux theme.
-- **helfetch** – A clean, elegant system information fetcher styled like Neofetch.
-- **hel-store** – A curated and modern app store tailored for Helwan Linux users.
+---
+
+### ⚙️ System Utilities
+
+- **hel-process** – Minimal task manager and resource monitor.  
+- **hel-terminal** – Customizable terminal emulator (demo version).  
+- **hel-sec-audit** – Lightweight system security audit tool.  
+- **hel-netfix** – Graphical system/network repair tool.  
+- **hel-bootfix** – One-click repair tool for bootloader and boot issues.  
+- **helufw** – GUI frontend for configuring and managing the system firewall.  
+
+---
+
+### 🧠 AI & Learning
+
+- **hel-ai-gate** – Lightweight AI and machine learning gateway that works without a browser.  
+- **hel-tutorial** – Offline Bash scripting tutorials in English, with interactive Linux basics for beginners.  
+
+---
+
+### 📊 Data & Visualization
+
+- **hel-insight** – Visual tool for analyzing and plotting CSV and Excel data.  
+- **hel-diagram** – Create flowcharts and system diagrams easily with a simple GUI.  
+
+---
+
+### 📁 Development Tools
+
+- **hel-builder** – Tool to edit, create, and manage `PKGBUILD` files.  
+- **hel-markdown** – Simple markdown editor for documentation and notes.  
+- **hel-text-editor** – Fast and minimal code & text editor.  
+- **hel-web-server** – Local development server with GUI control.  
+
+---
+
+### 💻 User Experience
+
+- **hel-welcome-app** – First-time setup guide and tips for new users.  
+- **hel-store** – A curated, modern app store designed for Helwan Linux users.  
+- **helfetch / helfetch-ng** – Elegant Neofetch-style system info fetchers (original + enhanced versions).  
+- **hel-usb-writer** – Reliable tool to flash ISO images to USB drives.  
+
+---
+
+### 🎮 Entertainment
+
+- **hel-blocks** – A Tetris-inspired game with a Helwan Linux theme.  
+
+---
+
+> All tools are developed in-house using GTK, Bash, or Python — offering an integrated, lightweight, and expressive user experience for all Helwan Linux users.
+
 
 ---
 
