@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="Helwan_Linux"
-iso_label="Helwan_Linux"
+iso_name="Helwan-Linux"
+iso_label="Helwan-Linux"
 iso_publisher="helwanlinux <helwanlinux@gmail.com>"
 iso_application="Helwan Linux Live/Rescue DVD"
 iso_version="v1.0"
