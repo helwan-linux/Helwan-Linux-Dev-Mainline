@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Count Lines
+Comment=Display the number of lines in the selected file
+Exec=bash -c 'lines=$(wc -l < "%F"); zenity --info --title="Line Count" --text="Lines: $lines\nFile: %F"'
+Icon=text-x-script
+Selection=single
+Extensions=any;
+Terminal=false
