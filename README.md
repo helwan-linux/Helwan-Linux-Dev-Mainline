@@ -10,7 +10,7 @@
 
 [![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/helwanlinux)
 
-## Welcome to Helwan O.S
+## Welcome to Helwan Linux
 
 Helwan Linux - Cinnamon Edition  
 Built on top of Arch Linux using archiso and Calamares  
@@ -21,7 +21,7 @@ Designed by developers, for developers and creators
 ![Helwan Linux Desktop](https://raw.githubusercontent.com/helwan-linux/Helwan-Artwork/main/DT.png)
 
 ---
-## 🚀 What is Helwan O.S?
+## 🚀 What is Helwan Linux?
 
 Helwan O.S is not just another Linux distro.  
 It’s a handcrafted Arch-based system built to empower programmers, YouTubers, and power users with a fast, secure, and full-featured desktop — right out of the box.  
