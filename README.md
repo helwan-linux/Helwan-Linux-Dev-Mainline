@@ -152,6 +152,7 @@ Helwan Linux has been featured by various international platforms, tech blogs, a
 
 - 🇫🇷 [French (PeerTube)](https://peertube.pcservice46.fr/w/t4w7FgJXbX94CFoxRpDNcF)  
 - 🇪🇸 [Spanish (YouTube)](https://www.youtube.com/watch?v=gC157gQ4XaY)
+- 🇪🇸 [Spanish (YouTube)](https://www.youtube.com/watch?v=OMxUR3n11iw)
 
 ### 📰 Articles & Media
 
