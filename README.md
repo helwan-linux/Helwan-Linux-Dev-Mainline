@@ -152,9 +152,10 @@ Helwan Linux has been featured by various international platforms, tech blogs, a
 ### 🎥 Video Reviews
 
 - 🇫🇷 [French (PeerTube)](https://peertube.pcservice46.fr/w/t4w7FgJXbX94CFoxRpDNcF)  
-- 🇪🇸 [Spanish (YouTube)](https://www.youtube.com/watch?v=gC157gQ4XaY)
-- 🇪🇸 [Spanish (YouTube)](https://www.youtube.com/watch?v=OMxUR3n11iw)
--  [Music (YouTube)](https://www.youtube.com/watch?v=Ps7J2omO-BU&t=1s) ... How to Install Helwan Linux on VirtualBox
+- 🇪🇸 [Spanish Review 1 (YouTube)](https://www.youtube.com/watch?v=gC157gQ4XaY)  
+- 🇪🇸 [Spanish Review 2 (YouTube)](https://www.youtube.com/watch?v=OMxUR3n11iw)  
+- 📀 [How to Install Helwan Linux on VirtualBox (YouTube, Music Only)](https://www.youtube.com/watch?v=Ps7J2omO-BU&t=1s)
+
 
 ### 📰 Articles & Media
 - ES [distritotux](https://www.distritotux.cl/2025/08/helwan-linux-el-combo-perfecto-de-arch.html)  
