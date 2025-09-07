@@ -18,7 +18,7 @@ Designed by developers, for developers and creators
 
 ---
 
-![Helwan Linux Desktop](https://raw.githubusercontent.com/helwan-linux/Helwan-Artwork/main/DT.png)
+![Helwan Linux Desktop](https://raw.github.com/helwan-linux/Helwan-Linux-Stable/blob/main/new.png)
 
 ---
 ## 🚀 What is Helwan Linux?
