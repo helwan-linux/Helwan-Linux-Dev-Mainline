@@ -23,7 +23,7 @@ Designed by developers, for developers and creators
 ---
 ## 🚀 What is Helwan Linux?
 
-Helwan O.S is not just another Linux distro.  
+Helwan Linux is not just another Linux distro.  
 It’s a handcrafted Arch-based system built to empower programmers, YouTubers, and power users with a fast, secure, and full-featured desktop — right out of the box.  
 
 With the Cinnamon desktop, the elegance of simplicity meets the power of performance.
@@ -153,6 +153,7 @@ Helwan Linux has been featured by various international platforms, tech blogs, a
 - 🇫🇷 [French (PeerTube)](https://peertube.pcservice46.fr/w/t4w7FgJXbX94CFoxRpDNcF)  
 - 🇪🇸 [Spanish (YouTube)](https://www.youtube.com/watch?v=gC157gQ4XaY)
 - 🇪🇸 [Spanish (YouTube)](https://www.youtube.com/watch?v=OMxUR3n11iw)
+-  [Music (YouTube)](https://www.youtube.com/watch?v=Ps7J2omO-BU&t=1s) ... How to Install Helwan Linux on VirtualBox
 
 ### 📰 Articles & Media
 - ES [distritotux](https://www.distritotux.cl/2025/08/helwan-linux-el-combo-perfecto-de-arch.html)  
