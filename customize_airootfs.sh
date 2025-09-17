@@ -80,17 +80,4 @@ for svc in vboxservice vmtoolsd vmware-networks vmware-vmblock-fuse; do
     fi
 done
 
-## --------------------------------------------------------------
-## 6️⃣ إعدادات واجهة المستخدم Cinnamon
-# لا حاجة لتعديلات KDE أو SDDM
-# يمكن إضافة ثيمات Cinnamon أو background عند الحاجة
-
-# fcitx5 كمدخل للغة
-cat >> /etc/environment <<-EOF
-GTK_IM_MODULE=fcitx
-QT_IM_MODULE=fcitx
-XMODIFIERS=@im=fcitx
-SDL_IM_MODULE=fcitx
-EOF
-
 echo "✅ Helwan Linux pre-build setup script for Cinnamon completed."
