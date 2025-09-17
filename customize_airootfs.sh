@@ -22,22 +22,33 @@ EOF
 echo "HelwanLinux" > /etc/hostname
 
 ## --------------------------------------------------------------
-## 2️⃣ ضبط المستودعات
-cat > /etc/pacman.d/mirrorlist <<-EOF
-# مثال لمرايا سريعة
-Server = https://mirrors.ustc.edu.cn/archlinux/\$repo/os/\$arch
-Server = https://mirrors.aliyun.com/archlinux/\$repo/os/\$arch
+## 2️⃣ ضبط المستودعات (مرايا عالمية)
+# الاحتفاظ بنسخة احتياطية للملف القديم
+cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup || true
+
+# تحميل قائمة المرايا العالمية الرسمية
+curl -s -o /etc/pacman.d/mirrorlist https://archlinux.org/mirrorlist/all/
+
+# فك التعليقات لاستخدام HTTPS فقط (اختياري)
+sed -i 's/^#Server/Server/g' /etc/pacman.d/mirrorlist
+
+# إضافة المستودعات الرئيسية إذا مش موجودة
+for repo in core extra multilib; do
+    if ! grep -qxF "[$repo]" /etc/pacman.conf; then
+        echo -e "\n[$repo]\nInclude = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
+    fi
+done
+
+# إضافة مستودع Helwan الخاص إذا مش موجود
+if ! grep -qxF "[helwan]" /etc/pacman.conf; then
+    cat >> /etc/pacman.conf <<-EOF
+
+[helwan]
+SigLevel = Never
+Server = https://pkgs.helwan.info/\$arch
 EOF
+fi
 
-# تفعيل multilib
-grep -qxF '[multilib]' /etc/pacman.conf || {
-    echo -e "\n[multilib]\nInclude = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
-}
-
-# إضافة مستودعات Helwan الخاصة
-grep -qxF '[helwan]' /etc/pacman.conf || {
-    echo -e "\n[helwan]\nSigLevel = Never\nServer = https://pkgs.helwan.info/\$arch" >> /etc/pacman.conf
-}
 
 ## --------------------------------------------------------------
 ## 3️⃣ إعداد اللغة والمنطقة الزمنية
