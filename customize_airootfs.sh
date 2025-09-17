@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Helwan Linux pre-build setup script
+# Helwan Linux pre-build setup script for Cinnamon
 # يجهز النظام قبل إنشاء ISO
 
 set -euo pipefail
@@ -67,10 +67,9 @@ for svc in vboxservice vmtoolsd vmware-networks vmware-vmblock-fuse; do
 done
 
 ## --------------------------------------------------------------
-## 6️⃣ إعدادات واجهة المستخدم
-# GRUB theme
-echo 'GRUB_THEME="/usr/share/grub/themes/helwan-grub-theme-dark-1080p/theme.txt"' >> /etc/default/grub
-echo 'GRUB_DISABLE_OS_PROBER=false' >> /etc/default/grub
+## 6️⃣ إعدادات واجهة المستخدم Cinnamon
+# لا حاجة لتعديلات KDE أو SDDM
+# يمكن إضافة ثيمات Cinnamon أو background عند الحاجة
 
 # fcitx5 كمدخل للغة
 cat >> /etc/environment <<-EOF
@@ -80,4 +79,4 @@ XMODIFIERS=@im=fcitx
 SDL_IM_MODULE=fcitx
 EOF
 
-echo "✅ Helwan Linux pre-build setup script completed."
+echo "✅ Helwan Linux pre-build setup script for Cinnamon completed."
