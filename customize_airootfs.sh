@@ -51,17 +51,22 @@ fi
 
 
 ## --------------------------------------------------------------
-## 3️⃣ إعداد اللغة والمنطقة الزمنية
-ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-hwclock --systohc
+## --------------------------------------------------------------
+## 3️⃣ إعداد اللغة ودعم العربية
+# لا تغيير المنطقة الزمنية (تترك كما هي أو يختار المستخدم لاحقًا)
+# ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+# hwclock --systohc
 
-echo -e "en_US.UTF-8 UTF-8\nzh_CN.UTF-8 UTF-8" >> /etc/locale.gen
+# توليد اللغات المطلوبة
+echo -e "en_US.UTF-8 UTF-8\nzh_CN.UTF-8 UTF-8\nar_SA.UTF-8 UTF-8" >> /etc/locale.gen
 locale-gen
 
+# ضبط اللغة الافتراضية للنظام
 cat > /etc/locale.conf <<-EOF
 LANG=zh_CN.UTF-8
 LC_ALL=zh_CN.UTF-8
 EOF
+
 
 ## --------------------------------------------------------------
 ## 4️⃣ تفعيل الخدمات الأساسية
