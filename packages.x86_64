@@ -171,6 +171,13 @@ fastfetch
 gimp
 gnome-keyring
 
+#################
+#android-reader##
+#################
+gvfs 
+gvfs-mtp 
+mtpfs
+
 ###################
 #cinnmon theme icons##
 ###################
