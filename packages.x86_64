@@ -174,8 +174,8 @@ gnome-keyring
 #################
 #android-reader##
 #################
-gvfs 
-gvfs-mtp 
+gvfs
+gvfs-mtp
 mtpfs
 android-tools
 
