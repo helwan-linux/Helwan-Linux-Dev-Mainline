@@ -1,0 +1,8 @@
+2025-10-01T18:10:51.476572Z  Starting process
+2025-10-01T18:10:51.506957Z  Using key FPR=366BFA97BEEA74E3347CF88CF1EB4C586AB40A7A LONG=F1EB4C586AB40A7A
+2025-10-01T18:11:18.642046Z  Signatures created
+2025-10-01T18:11:18.645000Z  Public key exported: release/Helwan-Linux-Dev-Cinnamon-v1.0-x86_64/helwan-key.asc
+2025-10-01T18:11:54.403222Z  Hashes calculated
+2025-10-01T18:11:54.408088Z  Report written
+2025-10-01T18:14:44.576960Z  ISO copy placed at Helwan-Linux-Dev-Cinnamon-v1.0-x86_64.iso
+2025-10-01T18:14:44.583697Z  Process finished successfully
