@@ -1,0 +1,14 @@
+sudo pacman -Syu zlib lzo lz4 xz zstd gcc-libs
+
+
+sudo pacman -S --noconfirm initcpio
+
+then
+
+ls /usr/lib/initcpio/udev/11-dm-initramfs.rules
+
+====================================
+sudo mkinitcpio -P
+
+=======================================
+airootfs_image_tool_options=('-comp' 'gzip' '-b' '256K' '-processors' '1')
