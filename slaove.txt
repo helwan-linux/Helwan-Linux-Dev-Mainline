@@ -1,14 +1,3 @@
-sudo pacman -Syu zlib lzo lz4 xz zstd gcc-libs
-
-
-sudo pacman -S --noconfirm initcpio
-
-then
-
-ls /usr/lib/initcpio/udev/11-dm-initramfs.rules
-
-====================================
-sudo mkinitcpio -P
-
-=======================================
-airootfs_image_tool_options=('-comp' 'gzip' '-b' '256K' '-processors' '1')
+Creating 4.0 filesystem on /home/sma/Desktop/Helwan-Linux-Dev-Cinnamon/work/iso/arch/x86_64/airootfs.sfs, block size 1048576.
+[================================================|              ] 302599/385596  78%
+FATAL ERROR: xz uncompress failed with error code 9
