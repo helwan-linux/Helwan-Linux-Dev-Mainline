@@ -309,12 +309,12 @@ bleachbit
 ##################
 hel-tutorial
 hel-welcome-app
-hel-insight
+#hel-insight
 hel-ai-gate
 hel-markdown
 hel-process
 hel-usb-writer
-hel-blocks
+#hel-blocks
 helfetch
 hel-store
 hel-terminal
@@ -325,7 +325,7 @@ hel-builder
 hel-text-editor
 hel-diagram
 hel-netfix
-hel-space-fight
+#hel-space-fight
 hel-iso-signer
 hpm
 momo
