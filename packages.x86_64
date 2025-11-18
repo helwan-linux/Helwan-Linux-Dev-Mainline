@@ -134,7 +134,7 @@ zsh
 ############
 #calamares##
 ############
-calamares
+hel-calamares
 hel-calamares-config
 os-prober
 ckbcomp
