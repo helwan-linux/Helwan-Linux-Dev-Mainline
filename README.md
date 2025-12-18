@@ -10,6 +10,12 @@
 
 [![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/helwanlinux)
 
+[![Donate with PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](
+https://www.paypal.me/SaeedMohamed080
+)
+
+
+
 ## Welcome to Helwan Linux
 
 Helwan Linux - Cinnamon Edition  
