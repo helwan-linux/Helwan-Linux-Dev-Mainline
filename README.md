@@ -18,7 +18,7 @@ Designed by developers, for developers and creators
 
 ---
 
-![Helwan Linux Desktop](https://raw.githubusercontent.com/helwan-linux/Helwan-Linux-Stable/main/new.png)
+![Helwan Linux Desktop](https://raw.githubusercontent.com/helwan-linux/Helwan-Linux-Dev-Cinnamon/main/new.png)
 
 
 ---
