@@ -26,7 +26,6 @@ Designed by developers, for developers and creators
 
 ![Helwan Linux Desktop](https://raw.githubusercontent.com/helwan-linux/Helwan-Linux-Dev-Cinnamon/main/new.png)
 
-
 ---
 ## 🚀 What is Helwan Linux?
 
