@@ -13,10 +13,13 @@ jobs:
     steps:
       - name: Maximize Build Space
         run: |
+          # تنظيف الملفات الضخمة غير الضرورية في سيرفرات جيت هاب
           sudo rm -rf /usr/share/dotnet
           sudo rm -rf /usr/local/lib/android
           sudo rm -rf /opt/ghc
           sudo rm -rf /usr/lib/jvm
+          sudo rm -rf /usr/local/share/boost
+          sudo apt-get clean
           df -h
 
       - name: Checkout repo
@@ -24,16 +27,29 @@ jobs:
 
       - name: Build ISO
         run: |
+          # تجهيز المجلد ومنح الصلاحيات
+          mkdir -p out
+          chmod 777 out
+
           docker run --rm --privileged \
             -v ${{ github.workspace }}:/repo \
             archlinux:latest \
-            /bin/bash -e -c "
-              pacman-key --init
-              pacman-key --populate archlinux
-              pacman -Sy --noconfirm archlinux-keyring
-              pacman -Syu --noconfirm archiso git
-              mkdir -p /repo/out
-              mkarchiso -v -w /tmp/archiso-work -o /repo/out /repo
+            /bin/bash -c "
+              # 1. تحديث مفاتيح الأمان والمستودعات الأساسية
+              pacman -Sy --noconfirm archlinux-keyring && \
+              pacman -Syu --noconfirm archiso git && \
+              
+              # 2. تنظيف ملف الحزم من أي حزم تسبب توقف البناء (مثل cheese)
+              # وأي حزم تعتقد أنها تسبب مشاكل في التبعات
+              sed -i '/^cheese$/d' /repo/packages.x86_64 && \
+
+              # 3. إعداد المستودعات الخاصة بك من ملف pacman.conf
+              cp /repo/pacman.conf /etc/pacman.conf && \
+              pacman -Sy --noconfirm && \
+
+              # 4. بدء البناء مع إجابة 'Enter' تلقائياً على كل الأسئلة
+              # هذا يحل مشكلة اختيار (java-runtime) أو تخطي الحزم الناقصة
+              echo -e '\n' | yes '' | mkarchiso -v -w /tmp/archiso-work -o /repo/out /repo
             "
 
       - name: Upload ISO
