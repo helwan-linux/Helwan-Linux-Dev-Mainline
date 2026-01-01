@@ -3,7 +3,7 @@ name: Build Arch ISO
 on:
   push:
     branches: [ main ]
-  workflow_dispatch: # متاح للتشغيل اليدوي الآن
+  workflow_dispatch:
 
 jobs:
   build:
@@ -24,22 +24,15 @@ jobs:
 
       - name: Build ISO
         run: |
-          # تجهيز المجلد ومنح صلاحيات للـ Docker
-          mkdir -p out
-          chmod 777 out
-          
           docker run --rm --privileged \
             -v ${{ github.workspace }}:/repo \
             archlinux:latest \
-            /bin/bash -c "
-              # 1. تحديث المفاتيح والمستودعات
-              pacman -Sy --noconfirm archlinux-keyring && \
-              pacman -Syu --noconfirm archiso git && \
-              
-              # 2. تنظيف قائمة الحزم من cheese وأي حزمة مفقودة لتجنب توقف البناء
-              sed -i '/^cheese$/d' /repo/packages.x86_64 && \
-              
-              # 3. تشغيل البناء
+            /bin/bash -e -c "
+              pacman-key --init
+              pacman-key --populate archlinux
+              pacman -Sy --noconfirm archlinux-keyring
+              pacman -Syu --noconfirm archiso git
+              mkdir -p /repo/out
               mkarchiso -v -w /tmp/archiso-work -o /repo/out /repo
             "
 
