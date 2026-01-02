@@ -1,0 +1,31 @@
+2026-01-02T07:47:33.136963Z  Starting process
+2026-01-02T07:47:33.137903Z  Working — The output will be in: /home/sma/Downloads/ty/ff/Helwan-Linux-Dev-Cinnamon-v1.1-x86_64
+2026-01-02T07:47:34.694299Z  No secret key found — Auto-generating an unprotected key for signing (Security Warning).
+2026-01-02T07:47:34.695652Z  Executing: gpg --batch --gen-key /tmp/tmpwxmw37b1
+2026-01-02T07:47:35.788017Z  Command Output:
+
+2026-01-02T07:47:35.831366Z  Using key FPR=140644027AA5488C7388B7DD2FB0E1FC75C228AC LONG=2FB0E1FC75C228AC
+2026-01-02T07:47:35.831512Z  Creating signatures...
+2026-01-02T07:47:35.832126Z  Executing: gpg --output /home/sma/Downloads/ty/ff/Helwan-Linux-Dev-Cinnamon-v1.1-x86_64/Helwan-Linux-Dev-Cinnamon-v1.1-x86_64.iso.sig --detach-sign --local-user 140644027AA5488C7388B7DD2FB0E1FC75C228AC /home/sma/Downloads/ty/Helwan-Linux-Dev-Cinnamon-v1.1-x86_64.iso
+2026-01-02T07:51:28.427941Z  Command Output:
+
+2026-01-02T07:51:28.507488Z  Executing: gpg --armor --output /home/sma/Downloads/ty/ff/Helwan-Linux-Dev-Cinnamon-v1.1-x86_64/Helwan-Linux-Dev-Cinnamon-v1.1-x86_64.iso.sig.asc --detach-sign --local-user 140644027AA5488C7388B7DD2FB0E1FC75C228AC /home/sma/Downloads/ty/Helwan-Linux-Dev-Cinnamon-v1.1-x86_64.iso
+2026-01-02T07:54:19.664815Z  Command Output:
+
+2026-01-02T07:54:19.678177Z  Signatures created successfully.
+2026-01-02T07:54:19.678581Z  Exporting Public Key to: helwan-key.asc
+2026-01-02T07:54:19.678809Z  Executing: gpg --armor --output /home/sma/Downloads/ty/ff/Helwan-Linux-Dev-Cinnamon-v1.1-x86_64/helwan-key.asc --export 140644027AA5488C7388B7DD2FB0E1FC75C228AC
+2026-01-02T07:54:19.800150Z  Command Output:
+
+2026-01-02T07:54:19.800522Z  Public key exported: /home/sma/Downloads/ty/ff/Helwan-Linux-Dev-Cinnamon-v1.1-x86_64/helwan-key.asc
+2026-01-02T07:54:19.800630Z  Calculating hashes (may take a while)...
+2026-01-02T07:54:19.822371Z  Calculating OPENSSL_SHA256...
+2026-01-02T07:57:02.763952Z  Calculating OPENSSL_SHA512...
+2026-01-02T07:59:30.313398Z  Calculating OPENSSL_SHA3_512...
+2026-01-02T08:01:32.935676Z  Calculating BLAKE2B...
+2026-01-02T08:03:26.212038Z  Calculating OPENSSL_SHA1...
+2026-01-02T08:05:45.889872Z  Calculating OPENSSL_MD5...
+2026-01-02T08:08:05.885703Z  All selected hashes calculated.
+2026-01-02T08:08:05.975475Z  Report written.
+2026-01-02T08:21:51.355011Z  ISO copy placed at Helwan-Linux-Dev-Cinnamon-v1.1-x86_64.iso
+2026-01-02T08:21:56.549002Z  Process finished successfully.
