@@ -53,8 +53,6 @@ less
 lftp
 libfido2
 libusb-compat
-#linux
-#linux-headers
 linux-atm
 linux-firmware
 linux-firmware-marvell
@@ -136,6 +134,8 @@ zsh
 #########
 linux-lts
 linux-lts-headers
+#linux
+#linux-headers
 
 ############
 #calamares##
