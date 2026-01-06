@@ -233,7 +233,9 @@ steam
 #########
 #office##
 #########
-libreoffice-still
+#libreoffice-still
+abiword
+gnumeric
 
 #########
 #editor##
