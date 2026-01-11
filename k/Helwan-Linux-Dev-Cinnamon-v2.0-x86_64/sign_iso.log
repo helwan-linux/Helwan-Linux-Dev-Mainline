@@ -1,0 +1,26 @@
+2026-01-11T20:23:24.319227Z  Starting process
+2026-01-11T20:23:24.319619Z  Working — The output will be in: /home/gh/Desktop/k/Helwan-Linux-Dev-Cinnamon-v2.0-x86_64
+2026-01-11T20:23:26.286251Z  No secret key found — Auto-generating an unprotected key for signing (Security Warning).
+2026-01-11T20:23:26.287563Z  Executing: gpg --batch --gen-key /tmp/tmp4o3yrun9
+2026-01-11T20:23:32.648844Z  Command Output:
+
+2026-01-11T20:23:32.694308Z  Using key FPR=B72D2E2BEE16834CEC1B3BC55B5D64A0609382BF LONG=5B5D64A0609382BF
+2026-01-11T20:23:32.694501Z  Creating signatures...
+2026-01-11T20:23:32.695002Z  Executing: gpg --output /home/gh/Desktop/k/Helwan-Linux-Dev-Cinnamon-v2.0-x86_64/Helwan-Linux-Dev-Cinnamon-v2.0-x86_64.iso.sig --detach-sign --local-user B72D2E2BEE16834CEC1B3BC55B5D64A0609382BF /home/gh/Desktop/Helwan-Linux-Dev-Cinnamon-v2.0-x86_64.iso
+2026-01-11T20:24:58.606689Z  Command Output:
+
+2026-01-11T20:24:58.638201Z  Executing: gpg --armor --output /home/gh/Desktop/k/Helwan-Linux-Dev-Cinnamon-v2.0-x86_64/Helwan-Linux-Dev-Cinnamon-v2.0-x86_64.iso.sig.asc --detach-sign --local-user B72D2E2BEE16834CEC1B3BC55B5D64A0609382BF /home/gh/Desktop/Helwan-Linux-Dev-Cinnamon-v2.0-x86_64.iso
+2026-01-11T20:26:10.295801Z  Command Output:
+
+2026-01-11T20:26:10.313658Z  Signatures created successfully.
+2026-01-11T20:26:10.314246Z  Exporting Public Key to: helwan-key.asc
+2026-01-11T20:26:10.314523Z  Executing: gpg --armor --output /home/gh/Desktop/k/Helwan-Linux-Dev-Cinnamon-v2.0-x86_64/helwan-key.asc --export B72D2E2BEE16834CEC1B3BC55B5D64A0609382BF
+2026-01-11T20:26:10.325822Z  Command Output:
+
+2026-01-11T20:26:10.326104Z  Public key exported: /home/gh/Desktop/k/Helwan-Linux-Dev-Cinnamon-v2.0-x86_64/helwan-key.asc
+2026-01-11T20:26:10.326209Z  Calculating hashes (may take a while)...
+2026-01-11T20:26:10.371963Z  Calculating OPENSSL_SHA256...
+2026-01-11T20:28:06.938107Z  All selected hashes calculated.
+2026-01-11T20:28:06.975432Z  Report written.
+2026-01-11T20:40:20.008407Z  ISO copy placed at Helwan-Linux-Dev-Cinnamon-v2.0-x86_64.iso
+2026-01-11T20:40:20.958635Z  Process finished successfully.
