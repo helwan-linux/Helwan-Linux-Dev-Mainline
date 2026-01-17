@@ -283,7 +283,8 @@ vokoscreen
 #############
 firefox
 #kdeconnect
-thunderbird
+#thunderbird
+geary
 
 #########
 #printing##
