@@ -330,7 +330,7 @@ hel-terminal
 helufw
 hel-sec-audit
 hel-web-server
-hel-builder
+#hel-builder
 hel-text-editor
 hel-diagram
 hel-netfix
