@@ -14,7 +14,7 @@ alias version="sed -n 1p /etc/os-release && sed -n 12p /etc/os-release && sed -n
 #Pacman Shortcuts
 alias sync="sudo pacman -Syyy"
 alias install="sudo pacman -S"
-alias update="sudo pacman -Syyu"
+alias update="sudo pacman -Syu"
 alias search="sudo pacman -Ss"
 alias search-local="sudo pacman -Qs"
 alias pkg-info="sudo pacman -Qi"
