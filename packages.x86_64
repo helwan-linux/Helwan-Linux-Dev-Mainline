@@ -327,9 +327,9 @@ hel-web-server
 hel-sync
 hel-stream
 
-##################
+########################
 #other-helwan-packages##
-##################
+########################
 hel-tutorial
 hel-markdown
 hel-usb-writer
@@ -341,3 +341,10 @@ hel-iso-signer
 python-pyautogui
 yt-dlp-git
 python-numpy
+
+###############
+#helwan-Games##
+###############
+hel-blocks
+hel-mycar
+hel-space-fight
