@@ -1,11 +1,13 @@
-# Helwan Linux Developer Edition
+# Helwan Linux Developer Edition (MainLine)
 <p align="center">
   <img src="https://github.com/helwan-linux/Helwan-Artwork/blob/main/icons/icon.png" alt="Helwan Linux" />
-  <br>Helwan Linux Developer Edition
+  <br>Helwan Linux Developer Edition - Rokking Realse
 </p>
 
 <p align="center">
-  Arch-Linux based distro built with <code>archiso for programmers and YouTubers</code>.
+  Arch-Linux based distro built with the <b>Mainline Kernel</b> for bleeding-edge performance and latest hardware support. 
+  <br>
+  <code>Handcrafted for programmers, YouTubers, and power users who demand the latest features.</code>
 </p>
 
 [![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/helwanlinux)
@@ -75,7 +77,7 @@ Containers and orchestration tools preloaded:
 ### 🎬 4. Multimedia Creation
 Create, record, and consume content:
 
-- **VLC** – All-format video/audio player  
+- **MPV && SMPlayer** – All-format video/audio player  
 - **Audacious** – Lightweight music player  
 - **Vokoscreen** – Screen recorder for tutorials
 
@@ -83,12 +85,13 @@ Create, record, and consume content:
 Stay connected:
 
 - **Firefox** – Secure, fast web browser  
-- **KDEConnect** – Sync your phone with your PC  
+- **hel-sync** – Sync your phone with your PC  
 - **HexChat** – Modern IRC client  
 - **Geary** – Lightweight email client
 
 ### 📝 6. Office Suite
-- **LibreOffice Still** – Full-featured document editing suite
+- **abiword**
+- **gnumeric**
 
 ### ⚙️ 7. System Tools & Utilities
 Your Swiss army knife of system control:
