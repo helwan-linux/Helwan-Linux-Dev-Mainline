@@ -1,7 +1,7 @@
 # Helwan Linux Developer Edition (MainLine)
 <p align="center">
   <img src="https://github.com/helwan-linux/Helwan-Artwork/blob/main/icons/icon.png" alt="Helwan Linux" />
-  <br>Helwan Linux Developer Edition - Rolling Realse
+  <br>Helwan Linux Developer Edition - Rolling Release
 </p>
 
 <p align="center">
