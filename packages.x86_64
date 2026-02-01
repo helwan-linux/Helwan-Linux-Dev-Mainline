@@ -325,7 +325,7 @@ hel-process
 helufw
 hel-web-server
 hel-sync
-hel-stream
+#hel-stream
 
 ########################
 #other-helwan-packages##
