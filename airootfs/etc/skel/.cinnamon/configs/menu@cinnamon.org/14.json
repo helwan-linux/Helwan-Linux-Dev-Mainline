@@ -253,6 +253,5 @@
         "description": "Open the menu editor",
         "callback": "_launch_editor",
         "tooltip": "Press this button to customize your menu entries."
-    },
-    "__md5__": "c4b27da93411965126569249b61793d7"
+    }
 }
