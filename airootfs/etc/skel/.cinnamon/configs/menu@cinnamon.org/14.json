@@ -88,7 +88,7 @@
         "default_icon": "cinnamon-symbolic",
         "dependency": "menu-custom",
         "indent": true,
-        "value": ""
+        "value": "/usr/share/backgrounds/logo.png"
     },
     "menu-icon-size": {
         "type": "spinbutton",
